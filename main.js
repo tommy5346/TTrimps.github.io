@@ -6627,7 +6627,7 @@ function checkVoidMap() {
 	var min = (max > 80) ? (1000 + ((max - 80) * 13)) : 1000;
 	min *= (1 - (getHeirloomBonus("Shield", "voidMaps") / 100));
 	var extraV = 0;
-	if (game.challenges.Nurture.boostsActive() && game.challenges.Nurture.getLevel >= 4) extraV = 0.2;
+	if (game.challenges.Nurture.boostsActive() && game.challenges.Nurture.getLevel() >= 4) extraV = 0.2;
 	min *= (1 - (game.goldenUpgrades.Void.currentBonus + extraV));
 	var chance = (Math.floor((game.global.lastVoidMap - min) / 10) / 50000);
 	game.global.lastVoidMap++;
