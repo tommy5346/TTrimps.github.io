@@ -3473,7 +3473,7 @@ var toReturn = {
 			start: function () {
 				document.getElementById("scienceCollectBtn").style.display = "none";
 				game.resources.science.owned = getScientistInfo(getScientistLevel());
-				game.global.autoUpgrades = false;
+				game.global.autoUpgrades = 0;
 				game.global.autoPrestiges = 0;
 				toggleAutoPrestiges(true);
 				toggleAutoUpgrades(true);
@@ -10017,7 +10017,7 @@ var toReturn = {
 			world: 80,
 			level: "last",
 			icon: "*key4",
-			title: "The Warden's Keys",
+			title: "The Warden&apos;s Keys",
 			filterUpgrade: true,
 			canRunOnce: true,
 			specialFilter: function () {
@@ -10419,7 +10419,7 @@ var toReturn = {
 			message: "You found plans for a hotel! (A decent hotel, too)",
 			level: [10, 20],
 			icon: "*office",
-			title: "The Trimps' Guide to Cheap Hotel Construction",
+			title: "The Trimps&apos;s Guide to Cheap Hotel Construction",
 			canRunOnce: true,
 			fire: function () {
 				if (!this.canRunOnce) return;
@@ -11297,7 +11297,7 @@ var toReturn = {
 			level: [15, 50],
 			blockU1: true,
 			icon: "th-large",
-			title: "It's a wet map",
+			title: "It&apos;s a wet map",
 			fire: function () {
 				createMap(33, "Atlantrimp", "Atlantis", 3, 100, 1.8, true);
 				message("You found an incredibly wet map. It seems to actually be generating water out of nothing, making storage very difficult without flooding the surrounding area. You're sure your Scientists can handle it though, they seem pretty smart.", "Story");
