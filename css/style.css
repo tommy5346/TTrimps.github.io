@@ -490,6 +490,12 @@ body {
 	color: #00d936;
 }
 
+@viewport {
+  zoom: 2.0;
+  min-zoom: 1.5;
+  max-zoom: 2.0;
+}
+
 #autoPurchaseConfigTable{
 	width: 100%;
 	font-size: 1.2vw;
