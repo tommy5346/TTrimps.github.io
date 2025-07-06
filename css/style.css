@@ -581,7 +581,7 @@ body {
 	margin: 0;
 	padding: 0;
 	padding: 0.5%;
-	height: 100%;
+	height: 70%;
 }
 
 .psText:hover, .bdHover:hover{
@@ -1034,7 +1034,7 @@ body {
     background: rgba(121, 121, 123, 0.5);
     color: white;
     padding: 0.25vw;
-    height: 100%;
+  /*  height: 100%; */
     width: 100%;
 	font-size: 1vw;
 }
@@ -7603,7 +7603,7 @@ input[type=range]{background: transparent;}
 		height: calc(99vh - 19vw - 165px);
 	}
 	.buyContainerSizeLg{
-		height: calc(99vh - 22.2vw - 161px);
+	/*	height: calc(99vh - 22.2vw - 161px);*/
 	}
 	.infoSpanNature {
 		font-size: 1vw;
