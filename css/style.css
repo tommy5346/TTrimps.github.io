@@ -58,7 +58,7 @@ body {
 }
 
 #wrapper {
-    height: 100vh;
+  /*  height: 100vh; */
     background-size: auto 100%;
 }
 
