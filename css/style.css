@@ -7,10 +7,11 @@ h1,h2,h3,h4,h5,h6{
 .badge {
 	background-color: #3b3b3b;
 }
-body {
+body,html {
 	background-color: black;
 	overflow-y: hidden;
 	overflow-x: hidden;
+	touch-action: pan-x;
 }
 .spire ul li.spireCell.cellColorNotBeaten{
 	background-color: #928DAD;
