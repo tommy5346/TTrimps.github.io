@@ -1337,7 +1337,7 @@ height: inherit;
 }
 
 #rightCol {
-	height: calc(100vh - 18vw - 58px);
+/*	height: calc(100vh - 18vw - 58px); */
 	padding-left: .25vw;
 }
 
