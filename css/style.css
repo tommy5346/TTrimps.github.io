@@ -870,7 +870,7 @@ body {
 }
 
 .buyContainerSizeLg{
-	height: calc(99vh - 22.2vw - 175px);
+	/* height: calc(99vh - 22.2vw - 175px); */
 }
 
 #outerBuyContainer{
