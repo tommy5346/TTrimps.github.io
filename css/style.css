@@ -11,8 +11,7 @@ body,html {
 	background-color: black;
 	overflow-y: hidden;
 	overflow-x: hidden;
-	position: fixed;
-	bottom: auto;
+
 
 	
 }
@@ -494,11 +493,6 @@ body,html {
 	color: #00d936;
 }
 
-@viewport {
-  zoom: 2.0;
-  min-zoom: 1.5;
-  max-zoom: 2.0;
-}
 
 #autoPurchaseConfigTable{
 	width: 100%;
