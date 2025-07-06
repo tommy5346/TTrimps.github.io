@@ -582,10 +582,11 @@ body,html {
 }
 
 #innerWrapper{
-	margin: 0;
+	margin: 7px;
 	padding: 0;
 	padding: 1%;
 /*	height: 100%; */
+	
 }
 
 .psText:hover, .bdHover:hover{
