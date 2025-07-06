@@ -1075,8 +1075,11 @@ body {
 	margin-left: 0;
 }
 
+div#BottomRow {
+height: inherit;
+}
 #settingsRow {
-    position: fixed;
+ /*   position: fixed; */
     bottom: 0;
     background-color: #545353;
     width: 100%;
